@@ -141,6 +141,7 @@
     font-weight: 600;
     width: 60%;
     text-align: center;
+    padding: 0;
 
 }
 
@@ -151,6 +152,7 @@
     font-size: 24px;
     font-weight: normal;
     text-align: center;
+    padding: 0;
 }
 
 .table {
@@ -228,4 +230,112 @@
     line-height: 51px;
     font-size: 36px;
     font-weight: normal; 
+}
+
+.kaufman {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1f1f1f;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.section-title_theme_dark {
+   color: white; 
+   z-index: 2;
+}
+
+.section-subtitle_theme_dark {
+    color: white;
+    z-index: 2;
+}
+
+.table_theme_dark {
+    row-gap: 80px;
+    margin: 0 auto 90px auto;
+    z-index: 2;
+}
+
+.table__cell_theme_dark {
+    width: 200px;
+    z-index: 2;
+}
+
+.kaufman__image {
+    width: 877px;
+    height: 877px;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: -210px;
+}
+
+.footer {
+    background-color: #1f1f1f;
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.footer__columns {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 60px 0 40px 0;
+}
+
+.footer__column {
+    color: white;
+}
+
+.footer__column_content_copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-basis: 711px;
+}
+
+.logo__place_footer {
+    width: 228px;
+    height: 32px;
+}
+
+.footer__author {
+    margin: 18px 0 18px 0;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.footer__column_links {
+    flex-direction: column;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.footer__column_content_social {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer__link {
+    row-gap: 20px;
+}
+
+.footer__image_link {
+    width: 16px;
+    height: 16px;
+}
+
+.footer__column_heading {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 600;
 }
