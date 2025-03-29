@@ -1,3 +1,7 @@
+.kaufman__image {
+  animation: rotation 20s linear infinite;
+}
+
 .kaufman {
   padding-top: 90px;
   display: flex;
@@ -19,4 +23,27 @@
   position: absolute;
   top: 0;
   right: -210px;
+}
+
+.section-title_theme_dark {
+  color: white; 
+  z-index: 2;
+}
+
+.section-subtitle_theme_dark {
+  margin-top: 20px;
+  color: white;
+  z-index: 2;
+}
+
+.table_theme_dark {
+  row-gap: 80px;
+  margin-top: 80px;
+  z-index: 2;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  z-index: 2;
 }

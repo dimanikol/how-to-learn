@@ -1,6 +1,6 @@
 .techniques {
   width: 80%;
-  padding: 100px;
+  padding: 100px 100px 0 100px;
   margin: 0 auto 0 auto;
   text-align: center;
   display: flex;
@@ -8,43 +8,3 @@
   align-items: center;
   flex-direction: column;
 }
-
-.cards {
-  width: 920px;
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  column-gap: 100px;
-  row-gap: 60px;
-  padding: 0;
-  margin: 60px 0 0 0;
-}
-
-.cards__item {
-  padding: 60 0 0 0;
-  width: 240px;
-  
-}
-
-.cards__image {
-  width: 160px;
-  height: 160px;
-  margin-bottom: 43px;
-  border-radius: 50%;
-}
-
-.cards__description {
-  margin-top: 16px;
-  line-height: 23px;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.cards__title {
-  margin: 0;
-  padding: 0;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-}
-

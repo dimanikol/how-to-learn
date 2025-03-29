@@ -6,7 +6,3 @@
       transform: rotate(360deg);
   }
 }
-
-.kaufman__image {
-  animation: rotation 20s linear infinite;
-}

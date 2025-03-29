@@ -10,11 +10,6 @@
   overflow: hidden;
 }
 
-.logo {
-  height: 32px;
-  max-width: 228px;
-}
-
 .logo_place_header {
   position: absolute;
   top: 30px;
@@ -44,10 +39,13 @@
 
 .header__link {
   color: #2f80ed;
+  transition: ease 0.5s;
 }
 
 .header__link:hover {
   cursor: pointer;
+  background-color: #f2f2f2;
+  opacity: 0.5;
 }
 
 .header__main-illustration {
@@ -60,6 +58,7 @@
 }
 
 .header__square-pic {
+  animation: rotation 20s linear infinite;
   background-color: #2f80ed;
   height: 568px;
   width: 568px;

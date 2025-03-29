@@ -11,11 +11,14 @@
   margin: 80px 0 0 0;
 }
 
-.resources__link {
+.resources__logo {
   width: 270px;
   height: 38px;
+  transition: ease 0.5s;
 }
 
-.resources__link:hover {
+.resources__logo:hover {
   cursor: pointer;
+  background-color: white;
+  opacity: 0.5;
 }

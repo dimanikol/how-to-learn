@@ -46,8 +46,11 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal; 
+  transition: ease 0.5s;
 }
 
 .feynman__link:hover {
   cursor: pointer;
+  background-color: #f2f2f2;
+  opacity: 0.5;
 }
