@@ -58,7 +58,6 @@
 }
 
 .header__square-pic {
-  animation: rotation 20s linear infinite;
   background-color: #2f80ed;
   height: 568px;
   width: 568px;

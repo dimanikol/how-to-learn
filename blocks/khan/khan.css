@@ -50,6 +50,7 @@
 .khan__book-container {
   display: flex;
   margin: 68px 0 0 0;
+  align-items: flex-start;
 }
 
 .khan__book-pic {
@@ -69,7 +70,7 @@
   transition: ease 0.5s;
 }
 
-.buy-link:hover {
+.khan__buy-link:hover {
   cursor: pointer;
   background-color: #f2f2f2;
   opacity: 0.5;
