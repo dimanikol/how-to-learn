@@ -10,12 +10,6 @@
   overflow: hidden;
 }
 
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
-}
-
 .header__title {
   width: 730px;
   line-height: 96px;

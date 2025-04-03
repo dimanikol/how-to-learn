@@ -2,3 +2,19 @@
   height: 32px;
   max-width: 228px;
 }
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.logo_place_footer {
+  transition: ease 0.5s;
+}
+
+.logo_place_footer:hover {
+  cursor: pointer;
+  background-color: #1f1f1f;
+  opacity: 0.5;
+}
